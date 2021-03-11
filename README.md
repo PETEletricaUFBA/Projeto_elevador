@@ -1,6 +1,14 @@
-# Assistividade - Projeto de acionamento inteligente do elevador
+<h1 align="center">
+  <br>
+  <a href="#"><img src="assets/elevador.png" alt="A lift logo" width="100"></a>
+  <br>
+  Projeto de acionamento inteligente de elevadores
+  <br>
+</h1>
 
-Projeto descrito a seguir faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nomeada de “Assistividade”. A atividade de pesquisa tem como objetivo desenvolver materiais técnicos e tecnologias para auxiliar pessoas com deficiência (PCDs), levando estudos e informações para a comunidade interna e externa à faculdade acerca de temas ligado a PCDs. Atualmente o grupo responsável pela atividade tem a difícil e empolgante missão de criar um dispositivo, sob a forma de um protótipo, capaz de realizar o controle de acesso a elevadores de uso exclusivo para pessoas com deficiência ou com mobilidade reduzida. Através desse projeto busca-se diminuir a incidência de pessoas sem deficiência ou sem restrições de mobilidade com acesso a elevadores específicos, garantindo, portanto, o uso dos elevadores por parte do seu público de destino. Para conceber esse projeto, utilizaremos componentes eletrônicos e microprocessados com ênfase em plataformas de prototipagem eletrônica, sensores e atuadores.
+<h4 align="center">Um projeto de acionamento de elevadores de uso exclusivo para Pessoas com Deficiência! Step-by-Step</h4>
+
+O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nomeada de “Assistividade”. A atividade de pesquisa tem como objetivo desenvolver materiais técnicos e tecnologias para auxiliar pessoas com deficiência (PCDs), levando estudos e informações para a comunidade interna e externa à faculdade acerca de temas ligado a PCDs. Atualmente o grupo responsável pela atividade tem a difícil e empolgante missão de criar um dispositivo, sob a forma de um protótipo, capaz de realizar o controle de acesso a elevadores de uso exclusivo para pessoas com deficiência ou com mobilidade reduzida. Através desse projeto busca-se diminuir a incidência de pessoas sem deficiência ou sem restrições de mobilidade com acesso a elevadores específicos, garantindo, portanto, o uso dos elevadores por parte do seu público de destino. Para conceber esse projeto, utilizaremos componentes eletrônicos e microprocessados com ênfase em plataformas de prototipagem eletrônica, sensores e atuadores.
 
 
 
