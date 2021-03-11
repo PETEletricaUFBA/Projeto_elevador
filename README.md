@@ -44,15 +44,6 @@ O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nome
 
 Essas instruções fornecerão uma cópia do projeto instalado e funcionando para fins de desenvolvimento e teste. 
 
-## Componentes utilizados
-
-Equipamento e link para venda (se necessário).
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-
 ### Pré-requisitos
 
 O que você vai precisar instalar e configurar para o correto funcionamento do projeto:
