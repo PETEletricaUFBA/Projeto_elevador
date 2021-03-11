@@ -13,6 +13,8 @@
   * [Softwares usados](#softwares-usados)
   * [Hardwares usados](#hardwares-usados)
 * [Montagem do circuito](#montagem-do-circuito)
+* [Programação do dispositivo](#programação-do-dispositivo)
+* [Atuador do projeto](#atuador-do-projeto)
 * [Contribuindo](#contribuindo)
 * [Licença](#licença)
 * [Contato](#contato)
@@ -36,16 +38,11 @@ O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nome
 * Resistores
 
 ## Montagem do Circuito
-
-
-### Pré-requisitos
-
-O que você vai precisar instalar e configurar para o correto funcionamento do projeto:
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+Aqui colocamos a foto do circuito no fritzing e damos instruções de montagem
+## Programação do dispositivo
+Aqui a gente coloca o código e explicamos as suas principais funcionalidades
+## Atuador do projeto
+Aqui a gente coloca o tutorial de construção do elemento atuador e formas de criar esse atuador
 ### Instalação e configuração
 
 Uma série de exemplos passo a passo que mostram como fazer a instalação e configuração do softwares citados:
