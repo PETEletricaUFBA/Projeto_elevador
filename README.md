@@ -70,10 +70,6 @@ Explciar o que cada um teste faz e para que serve.
 Testes...
 ```
 
-## Desenvolvimento
-
-Desenvolvimento cronológico
-
 
 ## Contribuindo
 
