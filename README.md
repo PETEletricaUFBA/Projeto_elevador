@@ -8,11 +8,22 @@
 
 <h4 align="center">Um projeto de acionamento de elevadores de uso exclusivo para Pessoas com Deficiência! Step-by-Step</h4>
 
+## Sumário
+* [Sobre o projeto](#sobre-o-projeto)
+  * [Softwares usados](#softwares-usados)
+  * [Hardwares usados](#hardwares-usados)
+* [Trilha do Conhecimento](#trilha-do-conhecimento)
+* [Módulos](#módulos)
+  * [Noções básicas de programação e conhecimento do kit de desenvolvimento NodeMCU](#1-noções-básicas-de-programação-e-conhecimento-do-kit-de-desenvolvimento-nodemcu)
+  * [Noções de implementações de automação no mundo real](#2-noções-de-implementações-de-automação-no-mundo-real)
+  * [Noções sobre a criação de bots e uso de servidores](#3-noções-sobre-a-criação-de-bots-e-uso-de-servidores)
+  * [Como levar a informação para o mundo virtual?](#4-como-levar-a-informação-para-o-mundo-virtual)
+* [Contribuindo](#contribuindo)
+* [Licença](#licença)
+* [Contato](#contato)
+
 ## Sobre o projeto
 O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nomeada de “Assistividade”. A atividade de pesquisa tem como objetivo desenvolver materiais técnicos e tecnologias para auxiliar pessoas com deficiência (PCDs), levando estudos e informações para a comunidade interna e externa à faculdade acerca de temas ligado a PCDs. Atualmente o grupo responsável pela atividade tem a difícil e empolgante missão de criar um dispositivo, sob a forma de um protótipo, capaz de realizar o controle de acesso a elevadores de uso exclusivo para pessoas com deficiência ou com mobilidade reduzida. Através desse projeto busca-se diminuir a incidência de pessoas sem deficiência ou sem restrições de mobilidade com acesso a elevadores específicos, garantindo, portanto, o uso dos elevadores por parte do seu público de destino. Para conceber esse projeto, utilizaremos componentes eletrônicos e microprocessados com ênfase em plataformas de prototipagem eletrônica, sensores e atuadores.
-
-
-
 
 ## Começando
 
