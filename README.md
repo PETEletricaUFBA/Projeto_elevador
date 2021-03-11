@@ -12,7 +12,7 @@
 * [Sobre o projeto](#sobre-o-projeto)
   * [Softwares usados](#softwares-usados)
   * [Hardwares usados](#hardwares-usados)
-* [Trilha do Conhecimento](#trilha-do-conhecimento)
+* [Montagem do circuito](#montagem-do-circuito)
 * [Contribuindo](#contribuindo)
 * [Licença](#licença)
 * [Contato](#contato)
@@ -35,9 +35,8 @@ O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nome
 * Diodo Emissor de Luz (LED)
 * Resistores
 
-## Começando
+## Montagem do Circuito
 
-Essas instruções fornecerão uma cópia do projeto instalado e funcionando para fins de desenvolvimento e teste. 
 
 ### Pré-requisitos
 
