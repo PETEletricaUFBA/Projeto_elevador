@@ -12,7 +12,7 @@
 * [Sobre o projeto](#sobre-o-projeto)
   * [Softwares usados](#softwares-usados)
   * [Hardwares usados](#hardwares-usados)
-* [Montagem do Projeto](#montagem-do-projeto)
+* [Montagem do projeto](#montagem-do-projeto)
 * [Programação do dispositivo](#programação-do-dispositivo)
 * [Atuador do projeto](#atuador-do-projeto)
 * [Contribuindo](#contribuindo)
@@ -37,7 +37,7 @@ O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nome
 * Diodo Emissor de Luz (LED)
 * Resistores
 
-## Montagem do Projeto
+## Montagem do projeto
 Aqui colocamos a foto do circuito no fritzing e damos instruções de montagem
 ## Programação do dispositivo
 Aqui a gente coloca o código e explicamos as suas principais funcionalidades
