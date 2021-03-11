@@ -14,6 +14,8 @@
   * [Hardwares usados](#hardwares-usados)
 * [Montagem do projeto](#montagem-do-projeto)
 * [Programação do dispositivo](#programação-do-dispositivo)
+* * [Web server](#web-server)
+* * [Fluxograma de programação](#fluxograma-de-programação)
 * [Atuador do projeto](#atuador-do-projeto)
 * [Contribuindo](#contribuindo)
 * [Licença](#licença)
@@ -40,9 +42,13 @@ O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nome
 ## Montagem do projeto
 Aqui colocamos a foto do circuito no fritzing e damos instruções de montagem
 ## Programação do dispositivo
+Detalhes gerais do que se buscou durante a programação
+### Web server
+Explicação sobre a criação do webserver
+### Fluxograma de Programação
 Aqui a gente coloca o código e explicamos as suas principais funcionalidades
 ## Atuador do projeto
-Aqui a gente coloca o tutorial de construção do elemento atuador e formas de criar esse atuador
+Tutorial de construção do elemento atuador e formas de criar esse atuador
 ### Instalação e configuração
 
 Uma série de exemplos passo a passo que mostram como fazer a instalação e configuração do softwares citados:
