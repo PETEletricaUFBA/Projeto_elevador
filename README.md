@@ -25,6 +25,21 @@
 ## Sobre o projeto
 O projeto faz parte da atividade desenvolvida pelo grupo PET Elétrica UFBA nomeada de “Assistividade”. A atividade de pesquisa tem como objetivo desenvolver materiais técnicos e tecnologias para auxiliar pessoas com deficiência (PCDs), levando estudos e informações para a comunidade interna e externa à faculdade acerca de temas ligado a PCDs. Atualmente o grupo responsável pela atividade tem a difícil e empolgante missão de criar um dispositivo, sob a forma de um protótipo, capaz de realizar o controle de acesso a elevadores de uso exclusivo para pessoas com deficiência ou com mobilidade reduzida. Através desse projeto busca-se diminuir a incidência de pessoas sem deficiência ou sem restrições de mobilidade com acesso a elevadores específicos, garantindo, portanto, o uso dos elevadores por parte do seu público de destino. Para conceber esse projeto, utilizaremos componentes eletrônicos e microprocessados com ênfase em plataformas de prototipagem eletrônica, sensores e atuadores.
 
+### Softwares usados
+* [Arduino](https://www.arduino.cc/en/Main/Software)
+* [Fritzing](https://fritzing.org/download/) (Opcional)
+* [Tinkercad](https://www.tinkercad.com/) (Opcional)
+
+### Hardwares usados
+* Placa de desenvolvimento NodeMCU
+* Módulo Leitor RFID RC522
+* Micro Servo 9g SG90 TowerPro
+* Protoboard
+* Fonte de energia (Ex: bateria)
+* Jumpers
+* Diodo Emissor de Luz (LED)
+* Resistores
+
 ## Começando
 
 Essas instruções fornecerão uma cópia do projeto instalado e funcionando para fins de desenvolvimento e teste. 
