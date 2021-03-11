@@ -13,11 +13,6 @@
   * [Softwares usados](#softwares-usados)
   * [Hardwares usados](#hardwares-usados)
 * [Trilha do Conhecimento](#trilha-do-conhecimento)
-* [Módulos](#módulos)
-  * [Noções básicas de programação e conhecimento do kit de desenvolvimento NodeMCU](#1-noções-básicas-de-programação-e-conhecimento-do-kit-de-desenvolvimento-nodemcu)
-  * [Noções de implementações de automação no mundo real](#2-noções-de-implementações-de-automação-no-mundo-real)
-  * [Noções sobre a criação de bots e uso de servidores](#3-noções-sobre-a-criação-de-bots-e-uso-de-servidores)
-  * [Como levar a informação para o mundo virtual?](#4-como-levar-a-informação-para-o-mundo-virtual)
 * [Contribuindo](#contribuindo)
 * [Licença](#licença)
 * [Contato](#contato)
@@ -84,8 +79,43 @@ Testes...
 Desenvolvimento cronológico
 
 
-## Autores
+## Contribuindo
 
+Contribuições são o que tornam a comunidade de## Contribuindo código aberto um lugar incrível para aprender, inspirar e criar. Todas as contribuições que você fizer são **muito bem vindas**!
+
+Aqui está a estrutura de uma pasta, se você quiser contribuir com um tutorial completo ❤:
+```
+.
+├── assets
+│   ├── protoboard.png
+│   └── pinoutv3.png
+├── code
+│   └── code.ino
+├── fritzing
+│   └── arquivo.fzz
+└── README.md
+```
+
+E o modelo do arquivo README está aqui: [_MODELO_](MODELO.md).
+
+Passos para enviar uma contribuição para nosso repositório:
+1. Crie um _Fork_ do projeto
+2. Crie sua _Branch_ (`git checkout -b feature/AmazingFeature`)
+3. Dê um _Commit_ nas suas mudanças com uma mensagem (`git commit -m 'Coloquei um recurso legal'`)
+4. _Push_ para esta _Branch_ (`git push origin feature/AmazingFeature`)
+5. Abra uma [_Pull Request_](pulls) e aguarde :D
+
+## Licença
+
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações.
+
+## Contato
+
+PET Elétrica - [@peteletricaufba](https://www.instagram.com/peteletricaufba/?hl=pt-br) - peteletricaufbadee@gmail.com
+
+Link do Projeto: [github.com/PETEletricaUFBA/automacao-iot-nodemcu](https://github.com/PETEletricaUFBA/automacao-iot-nodemcu)
+
+## Autores
 * **Josias Machado** - *Initial work* - [josiasmachado01](https://github.com/josiasmachado01)
 
 Veja também a lista de [colaboradores](https://github.com/PETEletricaUFBA/Projeto_elevador/graphs/contributors) que participaram deste projeto.
