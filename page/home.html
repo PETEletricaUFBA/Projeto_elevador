@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagina de cadastro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Helvetica;
+    display: inline-block;
+    background: white;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+label, p {
+    font-size: 16px;
+    text-align: center;
+}
+p {
+    margin-bottom: 52px;
+}
+.inputs{
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 240px;
+    margin: 12px 0 22px 0;
+}
+.button,.button-ok,.button-cancel {
+    background-color:#001D7E;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+}
+.button:hover, .button-ok:hover {
+	background-color: #001D7E;
+}
+.button-ok,.button-cancel {
+    width: 49%;
+}
+.button-cancel{
+    background-color: #991f00;
+}
+.button-cancel:hover{
+    background-color: #cc2900;
+}
+#container {
+    width: 80%;
+    max-width: 400px;
+    height: fit-content;
+    min-width: 200px;
+    padding: 22px 22px;
+    margin: 22px auto 0 auto;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+#form-div, #logo-div{
+    display: block;
+    text-align: center;
+}
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  } 
+#logo-div{
+    height: fit-content;
+    margin: 22px auto;
+}
+#logoazul {
+    width: 30%;
+    max-width: 135px;
+}
+#cabecalho {
+    height: 60px;
+    display: block;
+    background-color: #001D7E;
+}
+#menu {
+    display: block;
+    margin-left: 80%;
+} 
+
+footer {
+    padding: 15px;
+    margin-top: 50px;
+    height: 100px;
+    background-color: #001d7e;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  font-size: 14px;
+  background-color: white;
+  color:black;
+  background-size: 20px; 
+  background-image: url('user.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 2px solid #555;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px;
+  }
+  table, tr, td {
+    border: 1px solid black;
+    margin-bottom: 30px;
+  }
+  tr, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  #card{
+    background-image: url('rfid.png');
+  }
+  
+
+/* Design alto contraste */
+#fundo.ativo, #container.ativo, #cabecalho.ativo, footer.ativo, input[type=text].ativo{
+    background-color: black;
+    color: rgb(255, 251, 0);
+}
+
+#user.ativo{
+    background-image: url('userw.png');
+}
+
+#card.ativo{
+    background-image: url('rfidw.png');
+}
+
+
+/* Switch*/
+.onoffswitch {
+        position: relative;
+        float: right;
+        top: 10px;
+        right: 10px;
+        position: relative; width: 90px;
+        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    }
+    .onoffswitch-checkbox {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .onoffswitch-label {
+        display: block; overflow: hidden; cursor: pointer;
+        border: 2px solid #999999; border-radius: 20px;
+    }
+    .onoffswitch-inner {
+        display: block; width: 200%; margin-left: -100%;
+        transition: margin 0.3s ease-in 0s;
+    }
+    .onoffswitch-inner:before, .onoffswitch-inner:after {
+        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+        box-sizing: border-box;
+    }
+    .onoffswitch-inner:before {
+        content: "ASD";
+        padding-left: 10px;
+        background-color: #FFFFFF; color: #575757;
+    }
+    .onoffswitch-inner:after {
+        content: "ASD";
+        padding-right: 10px;
+        background-color: #faf3f3; color: #3d3d3d;
+        text-align: right;
+    }
+    .onoffswitch-switch {
+        display: block; width: 18px; margin: 6px;
+        background: #ffffff;
+        position: absolute; top: 0; bottom: 0;
+        right: 56px;
+        border: 2px solid #999999; border-radius: 20px;
+        transition: all 0.3s ease-in 0s; 
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+        margin-left: 0;
+    }
+    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+        right: 0px; 
+    }
+    /* Social media*/
+
+    .fa-youtube {
+        color: white;
+    }
+    .fa-instagram {
+     color: white;
+    }
+    .fa-google {
+     color: white;
+    }
+    .fa {
+        padding: 15px;
+        font-size: 23px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin-top: -30cm;
+        align-self: baseline;
+        border-radius:10%
+    }
+    .fa:hover {
+        opacity: 0.5;
+    }
+    </style>
+
+</head>
+
+<body id="fundo">
+    <header>
+        <div id="cabecalho">
+         <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" onchange="altoContraste(this)">
+            <label class="onoffswitch-label" for="myonoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>  
+    </div>  
+    </header>
+    <div id="logo-div">
+        <img src="logopetoficial.png" alt="MEXER ISSO AQUI" id="logoazul">
+    </div>
+    <div id="container">
+        <div id="form-div">
+            <h1 class="texto">Novo usuário</h1>
+            <form action="/get">
+                <label class="texto">Aproxime sua tag do leitor</label><br>
+                <input id="card" class="inputs" type="text" name="rfid" id="rfid-tag" value=%RFID_TAG%><br>
+                <label class="texto">Informação adicional</label><br>
+                <input id="user" class="inputs" type="text" name="info" required="required" placeholder="Ex: Nome, CPF"><br>
+                <input type="submit" class="button" value="Cadastrar">
+            </form>
+        </div>
+        <hr style="margin: 22px 0">
+        <div>
+            <h1 class="texto">Usuários cadastrados</h1>
+            <p class="texto">%TABLE%</p>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <p>Construído pelo grupo PET-Elétrica UFBA</p>
+            <a href="https://www.youtube.com/user/PETeletricaUFBA" class="fa fa-youtube"target="_blank"></a>
+            <a href="mailto: peteletricaufbadee@gmail.com" class="fa fa-google"target="_blank"></a>
+            <a href="https://www.instagram.com/peteletricaufba/" class="fa fa-instagram" target="_blank"></a>
+        </div>
+    </footer>
+</body>
+<script>
+    setInterval(function () {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                //document.getElementById("rfid-tag").innerHTML = this.responseText;
+                document.getElementById("rfid-tag").value = this.responseText;
+            }
+        };
+        xhttp.open("GET", "/rfid", true);
+        xhttp.send();
+    }, 1000);
+
+function altoContraste() {
+    // Fundo Preto
+    document.getElementById("fundo").classList.toggle("ativo");
+    document.getElementById("container").classList.toggle("ativo");
+    document.getElementById("cabecalho").classList.toggle("ativo");
+    document.getElementById("footer").classList.toggle("ativo");
+    document.getElementById("user").classList.toggle("ativo");
+    document.getElementById("card").classList.toggle("ativo");
+
+    x = document.getElementsByClassName("inputs");
+    l = x.length;
+    if (document.getElementById("logoazul").src.split("/").pop().split(".")[0]==="logopetoficial") {
+        document.getElementById('logoazul').src="logopetnegativo.png";
+        for (i = 0; i < l; i++) {
+            x[i].style.backgroundColor = "#000000";
+            x[i].style.color = "#FFFFFF";
+        }
+    }  else {
+        document.getElementById('logoazul').src="logopetoficial.png";
+        for (i = 0; i < l; i++) {
+            x[i].style.backgroundColor = "#FFFFFF";
+            x[i].style.color = "000000";
+        }
+    }
+
+    
+    
+}
+</script>
+
+</html>
