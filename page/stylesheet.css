@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}   
 html {
     font-family: Helvetica;
     display: inline-block;
@@ -7,9 +11,9 @@ html {
 h1{
     font-weight: bold;
     text-align: center;
-    color: #1BAE85;
-    font-size: 32px;
-    margin-bottom: 32px;
+    color:black;
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 label, p {
     font-size: 16px;
@@ -25,7 +29,7 @@ p{
     margin: 12px 0 22px 0;
 }
 .button,.button-ok,.button-cancel {
-    background-color:#126e54;
+    background-color:#001d7e;
     border: none;
     color: white;
     padding: 12px 20px;
@@ -33,9 +37,10 @@ p{
     font-size: 16px;
     cursor: pointer;
     width: 100%;
+    border-radius: 15px;
 }
 .button:hover, .button-ok:hover {
-	background-color: #1BAE85;
+	background-color: #0d2c92;
 }
 .button-ok,.button-cancel {
     width: 49%;
@@ -62,9 +67,10 @@ p{
     margin: 0 auto 0 auto;
 }
 #logo-div{
-    width: 250px;
+    width: 30%px;
+    max-width: 135px;
     height: fit-content;
-    margin: 22px auto 22px auto;
+    margin: 22px auto ;
 }
 img { 
     width:100%; 
@@ -86,3 +92,9 @@ table {
   hr{
     margin: 22px 0 22px 0;
   }
+
+  #cabecalho {
+    height: 60px;
+    display: block;
+    background-color: #001D7E;
+}
