@@ -22,6 +22,7 @@ html {
 h1 {
     font-size: 30px;
     margin-bottom: 25px;
+    text-align: center;
 }
 label, p {
     font-size: 16px;
@@ -38,15 +39,14 @@ p {
 }
 .button,.button-ok,.button-cancel {
     background-color:#001D7E;
-    margin: 0 0 0 60px;
     border: none;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
-    width: 50%;
-    border-radius: 25px;
+    width: 100%;
+    border-radius: 15px;
 }
 .button:hover, .button-ok:hover {
 	background-color: #001D7E;
@@ -155,12 +155,6 @@ table {
 #fundo.ativo, #container.ativo, #cabecalho.ativo, footer.ativo, input[type=text].ativo{
     background-color: black;
     color: rgb(255, 251, 0);
-}
-
-input[type=submit].ativo{
-    background-color: black;
-    color: rgb(255, 251, 0);
-    border: 1px solid rgb(255, 251, 0)
 }
 
 #user.ativo{
@@ -275,7 +269,7 @@ input[type=submit].ativo{
                 <input id="card" class="inputs" type="text" name="rfid" id="rfid-tag" value=%RFID_TAG%><br>
                 <label class="texto">Informação adicional</label><br>
                 <input id="user" class="inputs" type="text" name="info" required="required" placeholder="Ex: Nome, CPF"><br>
-                <input id=button type="submit" class="button" value="Cadastrar">
+                <input type="submit" class="button" value="Cadastrar">
             </form>
         </div>
         <hr style="margin: 22px 0">
@@ -314,8 +308,6 @@ function altoContraste() {
     document.getElementById("footer").classList.toggle("ativo");
     document.getElementById("user").classList.toggle("ativo");
     document.getElementById("card").classList.toggle("ativo");
-    document.getElementById("button").classList.toggle("ativo");
-
 
     x = document.getElementsByClassName("inputs");
     l = x.length;
@@ -339,4 +331,3 @@ function altoContraste() {
 </script>
 
 </html>
-
